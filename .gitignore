@@ -421,8 +421,6 @@ FodyWeavers.xsd
 !appsettings.json
 !appsettings.*.json
 
-**.vs/
-
-**bin/debug/net8.0/
-
-**obj/
+.vs/
+bin/Debug/net8.0/
+obj/
