@@ -9,13 +9,12 @@ namespace secondweek
     public class TaskService
     {
         private TaskRepository DataBase;
-
         public TaskService(TaskRepository dataBase) { DataBase = dataBase; }
 
         public async Task DeleteTask()
         {
             Console.WriteLine("Введите номер записи:");
-            int id; 
+            int id;
             while (!int.TryParse(Console.ReadLine(), out id))
             {
                 Console.WriteLine("Неверный формат ввода");
@@ -33,6 +32,7 @@ namespace secondweek
             }
             await DataBase.ChangeStatus(id);
         }
+
         public async Task TypeTask()
         {
             Console.WriteLine("Введите заголовок: ");
@@ -42,7 +42,6 @@ namespace secondweek
 
             await DataBase.AddTask(title, description, false, DateTime.Now);
         }
-       
 
         public async Task WriteAllTasks()
         {
@@ -51,7 +50,6 @@ namespace secondweek
             {
                 Console.WriteLine($"Id: {task.Id}; Заголовок: {task.Title}; Описание: {task.Description}; Статус: {task.IsCompleted}; Время: {task.CreatedAt};");
             }
-
         }
 
     }

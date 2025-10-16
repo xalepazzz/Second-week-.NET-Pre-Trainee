@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Dapper;
-using Microsoft.Data.SqlClient; 
+using Microsoft.Data.SqlClient;
 
 namespace secondweek
 {
@@ -34,6 +34,7 @@ namespace secondweek
 
             }
         }
+
         public async Task ChangeStatus(int taskId)
         {
             int result;
@@ -42,7 +43,7 @@ namespace secondweek
                 using (var connection = new SqlConnection(_connectionString))
                 {
                     await connection.OpenAsync();
-                    result = await connection.ExecuteAsync(("UPDATE Tasks SET IsCompleted = ~IsCompleted WHERE Id = @id"), new { Id = taskId});
+                    result = await connection.ExecuteAsync(("UPDATE Tasks SET IsCompleted = ~IsCompleted WHERE Id = @id"), new { Id = taskId });
 
                 }
                 if (result > 0)
@@ -66,22 +67,22 @@ namespace secondweek
                 {
                     await connection.OpenAsync();
                     result = await connection.ExecuteAsync("INSERT INTO Tasks (Title, Description, IsCompleted, CreatedAt) VALUES (@title, @description, @isCompleted, @createdAt )", new { Title = title, Description = description, IsCompleted = isCompleted, CreatedAt = createTime });
-                    
+
                 }
-            
-                    Console.WriteLine("Выполнено успешно!");
-               
+
+                Console.WriteLine("Выполнено успешно!");
+
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Ошибка при выполнении: {ex.Message}");
-                
+
             }
         }
 
         public async Task<List<TaskEntity>> AllTasks()
         {
-            
+
             try
             {
                 using (var connection = new SqlConnection(_connectionString))
@@ -96,7 +97,7 @@ namespace secondweek
                         return new List<TaskEntity>();
                     }
                 }
-               
+
             }
             catch (Exception ex)
             {

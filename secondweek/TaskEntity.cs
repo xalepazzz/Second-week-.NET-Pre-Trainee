@@ -8,10 +8,10 @@ namespace secondweek
 {
     public class TaskEntity
     {
-       public int Id;
-       public string Title;
-       public string Description;
-       public bool IsCompleted;
-       public DateTime CreatedAt;
+        public int Id;
+        public string Title;
+        public string Description;
+        public bool IsCompleted;
+        public DateTime CreatedAt;
     }
 }

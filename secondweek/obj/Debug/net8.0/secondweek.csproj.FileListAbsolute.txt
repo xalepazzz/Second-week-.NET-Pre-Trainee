@@ -74,3 +74,5 @@ C:\Users\arkad\source\repos\secondweek\secondweek\obj\Debug\net8.0\refint\second
 C:\Users\arkad\source\repos\secondweek\secondweek\obj\Debug\net8.0\secondweek.pdb
 C:\Users\arkad\source\repos\secondweek\secondweek\obj\Debug\net8.0\secondweek.genruntimeconfig.cache
 C:\Users\arkad\source\repos\secondweek\secondweek\obj\Debug\net8.0\ref\secondweek.dll
+C:\Users\arkad\source\repos\secondweek\secondweek\bin\Debug\net8.0\appsettings.json
+C:\Users\arkad\source\repos\secondweek\secondweek\obj\Debug\net8.0\secondweek.sourcelink.json
