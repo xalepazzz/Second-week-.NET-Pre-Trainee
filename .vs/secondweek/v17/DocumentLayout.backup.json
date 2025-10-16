@@ -49,21 +49,19 @@
               "RelativeToolTip": "secondweek\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-16T07:22:48.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T07:22:48.534Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "secondweek",
+              "Title": "secondweek.csproj",
               "DocumentMoniker": "C:\\Users\\arkad\\source\\repos\\secondweek\\secondweek\\secondweek.csproj",
               "RelativeDocumentMoniker": "secondweek\\secondweek.csproj",
               "ToolTip": "C:\\Users\\arkad\\source\\repos\\secondweek\\secondweek\\secondweek.csproj",
               "RelativeToolTip": "secondweek\\secondweek.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-16T07:11:35.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T07:11:35.325Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "secondweek\\TaskEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:57:02.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T15:57:02.15Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "secondweek\\TaskService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:47:19.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T15:47:19.123Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "secondweek\\TaskRepository.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA1wDkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T11:57:38.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T11:57:38.49Z"
             },
             {
               "$type": "Document",
@@ -121,7 +116,7 @@
               "RelativeDocumentMoniker": "secondweek\\Program.cs",
               "ToolTip": "C:\\Users\\arkad\\source\\repos\\secondweek\\secondweek\\Program.cs",
               "RelativeToolTip": "secondweek\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-12T11:53:33.722Z",
               "EditorCaption": ""
