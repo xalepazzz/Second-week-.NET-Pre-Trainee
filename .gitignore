@@ -417,4 +417,6 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
+# Allow appsettings.json files
 !appsettings.json
+!appsettings.*.json
