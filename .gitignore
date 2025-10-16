@@ -420,3 +420,9 @@ FodyWeavers.xsd
 # Allow appsettings.json files
 !appsettings.json
 !appsettings.*.json
+
+.vs/
+
+bin/debug/net8.0/
+
+obj/
